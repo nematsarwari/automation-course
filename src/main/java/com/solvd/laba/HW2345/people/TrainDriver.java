@@ -76,7 +76,4 @@ public class TrainDriver extends Person {
         LOGGER.info("getHiredDate: " + getHiredDate());
         LOGGER.info("Batch: " + getBatch());
     }
-    public void dailyCostForCompany() {
-        LOGGER.info("Daily cast: "+5+"$");
-    }
 }

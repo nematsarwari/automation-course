@@ -78,7 +78,4 @@ public class Manager extends Person {
         LOGGER.info("HiredDate: " + getHiredDate());
         LOGGER.info("Batch: " + getBatch());
     }
-    public void dailyCostForCompany() {
-        LOGGER.info("Daily cast: "+20+"$");
-    }
 }

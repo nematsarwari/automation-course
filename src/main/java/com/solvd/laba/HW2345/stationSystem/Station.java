@@ -80,9 +80,4 @@ public class Station extends Maintain {
     public void maintenanceReason(String reason) {
         LOGGER.info("the reason:"+reason);
     }
-
-    @Override
-    public void dailyCostForCompany() {
-        LOGGER.info("Daily cast: "+500+"$");
-    }
 }

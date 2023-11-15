@@ -66,7 +66,4 @@ public class TrainLine extends Maintain implements Available {
     public void maintenanceReason(String reason) {
         LOGGER.info("the reason:"+reason);
     }
-    public void dailyCostForCompany() {
-        LOGGER.info("Daily cast: "+200+"$");
-    }
 }

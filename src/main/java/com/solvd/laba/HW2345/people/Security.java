@@ -76,7 +76,4 @@ public class Security extends Person {
         LOGGER.info("HiredDate: " + getHiredDate());
         LOGGER.info("Batch: " + getBatch());
     }
-    public void dailyCostForCompany() {
-        LOGGER.info("Daily cast: "+30+"$");
-    }
 }

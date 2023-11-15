@@ -8,19 +8,19 @@ import org.apache.logging.log4j.Logger;
 import java.sql.Driver;
 import java.util.Objects;
 
-public class Ticket extends Cast implements Payable {
+public class Ticket implements Payable {
     private static final Logger LOGGER = LogManager.getLogger(Driver.class);
 
     private String ticketHolderName;
     private String ticketHolderLastname;
     private double price = 30.0;
-    private int ticketNumber;
+    private static int ticketNumber;
     private int l;
 
-    public Ticket(String ticketHolderName, String ticketHolderLastname, int ticketNumber){
+    public Ticket(String ticketHolderName, String ticketHolderLastname){
         this.ticketHolderName = ticketHolderName;
         this.ticketHolderLastname = ticketHolderLastname;
-        this.ticketNumber = ticketNumber;
+        ticketNumber++;
     }
 
     public String getTicketHolderName() {
@@ -47,12 +47,8 @@ public class Ticket extends Cast implements Payable {
         this.price = price;
     }
 
-    public int getTicketNumber() {
+    public static int getTicketNumber() {
         return ticketNumber;
-    }
-
-    public void setTicketNumber(int ticketNumber) {
-        this.ticketNumber = ticketNumber;
     }
 
     @Override
@@ -97,8 +93,4 @@ public class Ticket extends Cast implements Payable {
         }
     }
 
-    @Override
-    public void dailyCostForCompany() {
-        LOGGER.info("Daily cast: "+50+"$");
-    }
 }

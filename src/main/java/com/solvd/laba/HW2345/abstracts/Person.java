@@ -1,12 +1,11 @@
 package com.solvd.laba.HW2345.abstracts;
 
-import com.solvd.laba.HW2345.Cast;
 import com.solvd.laba.HW2345.Exception.InvalidPersonException;
 import com.solvd.laba.HW2345.interfaces.Printable;
 
 import java.util.Objects;
 
-public abstract class Person extends Cast implements Printable {
+public abstract class Person implements Printable {
     protected String firstName;
     protected String lastName;
     protected long phoneNumber;

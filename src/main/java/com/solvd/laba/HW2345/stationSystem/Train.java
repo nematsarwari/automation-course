@@ -79,7 +79,4 @@ public class Train extends Maintain implements Transportable, Available {
     public void maintenanceReason(String reason) {
         LOGGER.info("the reason:"+reason);
     }
-    public void dailyCostForCompany() {
-        LOGGER.info("Daily cast: "+1500+"$");
-    }
 }

@@ -61,7 +61,4 @@ public class Passenger extends Person {
         LOGGER.info("PhoneNumber: " + getPhoneNumber());
         LOGGER.info("ticketDate: " + getTicketDate());
     }
-    public void dailyCostForCompany() {
-        LOGGER.info("Daily cast: "+5+"$");
-    }
 }
