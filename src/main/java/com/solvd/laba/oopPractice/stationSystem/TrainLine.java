@@ -1,8 +1,8 @@
 package com.solvd.laba.oopPractice.stationSystem;
 
 import com.solvd.laba.oopPractice.Exception.InvalidTrainLineException;
-import com.solvd.laba.oopPractice.abstracts.Maintain;
-import com.solvd.laba.oopPractice.interfaces.Available;
+import com.solvd.laba.oopPractice.abstracts.Equipment;
+import com.solvd.laba.oopPractice.interfaces.Maintainable;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -10,24 +10,15 @@ import java.sql.Driver;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public class TrainLine extends Maintain implements Available {
+public class TrainLine extends Equipment implements Maintainable {
     private static final Logger LOGGER = LogManager.getLogger(Driver.class);
-    private String lineName;
     private int lineNumber;
-    public TrainLine(String lineName, int lineNumber)throws InvalidTrainLineException {
-        if (lineName == null || lineName.isEmpty() || lineNumber == 0) {
+    public TrainLine(String name, LocalDate establishedDate , int lineNumber)throws InvalidTrainLineException {
+        super(name, establishedDate);
+        if (name == null || name.isEmpty() || lineNumber == 0) {
             throw new InvalidTrainLineException("Invalid " + this.getClass().getSimpleName() + ": TrainName and LineNumber.");
         }
-        this.lineName = lineName;
         this.lineNumber = lineNumber;
-    }
-
-    public String getLineName() {
-        return lineName;
-    }
-
-    public void setLineName(String lineName) {
-        this.lineName = lineName;
     }
 
     public int getLineNumber() {
@@ -42,22 +33,25 @@ public class TrainLine extends Maintain implements Available {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
         TrainLine trainLine = (TrainLine) o;
-        return lineNumber == trainLine.lineNumber && Objects.equals(lineName, trainLine.lineName);
+        return lineNumber == trainLine.lineNumber;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(lineName, lineNumber);
+        return Objects.hash(super.hashCode(), lineNumber);
     }
 
     @Override
     public String toString() {
         return "TrainLine{" +
-                "lineName='" + lineName + '\'' +
-                ", lineNumber=" + lineNumber +
+                "lineNumber=" + lineNumber +
+                ", name='" + name + '\'' +
+                ", establishedDate=" + establishedDate +
                 '}';
     }
+
     public void maintenanceDate(LocalDate date) {
         LOGGER.info("The maintain date is:"+date);
     }

@@ -1,7 +1,8 @@
 package com.solvd.laba.oopPractice.stationSystem;
 
 import com.solvd.laba.oopPractice.Exception.InvalidStationException;
-import com.solvd.laba.oopPractice.abstracts.Maintain;
+import com.solvd.laba.oopPractice.abstracts.Equipment;
+import com.solvd.laba.oopPractice.interfaces.Maintainable;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -9,28 +10,16 @@ import java.sql.Driver;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public class Station extends Maintain {
+public class Station extends Equipment implements Maintainable {
     private static final Logger LOGGER = LogManager.getLogger(Driver.class);
 
-    private String stationName;
     private String location;
-    private LocalDate establishedDate;
-    public Station(String stationName, String location, LocalDate establishedDate)throws InvalidStationException {
-        if(stationName == null || stationName.isEmpty() || location == null || location.isEmpty()){
+    public Station(String name, String location, LocalDate establishedDate)throws InvalidStationException {
+        super(name, establishedDate);
+        if(name == null || name.isEmpty() || location == null || location.isEmpty()){
             throw new InvalidStationException("Invalid " + getClass().getName() +": stationName and location");
         }
-        this.stationName = stationName;
         this.location = location;
-        this.establishedDate = establishedDate;
-
-    }
-
-    public String getStationName() {
-        return stationName;
-    }
-
-    public void setStationName(String stationName) {
-        this.stationName = stationName;
     }
 
     public String getLocation() {
@@ -41,32 +30,25 @@ public class Station extends Maintain {
         this.location = location;
     }
 
-    public LocalDate getEstablishedDate() {
-        return establishedDate;
-    }
-
-    public void setEstablishedDate(LocalDate establishedDate) {
-        this.establishedDate = establishedDate;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
         Station station = (Station) o;
-        return Objects.equals(stationName, station.stationName) && Objects.equals(location, station.location) && Objects.equals(establishedDate, station.establishedDate);
+        return Objects.equals(location, station.location);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(stationName, location, establishedDate);
+        return Objects.hash(super.hashCode(), location);
     }
 
     @Override
     public String toString() {
         return "Station{" +
-                "stationName='" + stationName + '\'' +
-                ", location='" + location + '\'' +
+                "location='" + location + '\'' +
+                ", name='" + name + '\'' +
                 ", establishedDate=" + establishedDate +
                 '}';
     }

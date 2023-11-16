@@ -1,6 +1,6 @@
 package com.solvd.laba.oopPractice;
 
-import com.solvd.laba.oopPractice.Exception.UnsuccessfulPayment;
+import com.solvd.laba.oopPractice.Exception.UnsuccessfulPaymentRuntime;
 import com.solvd.laba.oopPractice.interfaces.Payable;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -75,12 +75,12 @@ public class Ticket implements Payable {
     }
 
     @Override
-    public void makePayment(long cardNumber, long price) throws UnsuccessfulPayment {
+    public void makePayment(long cardNumber, long price) throws UnsuccessfulPaymentRuntime {
         if (price == this.price){
             LOGGER.info("you make the payment successfully");
             l++;
         }else {
-            throw new UnsuccessfulPayment("Please pay full amount");
+            throw new UnsuccessfulPaymentRuntime("Please pay full amount");
         }
     }
 
