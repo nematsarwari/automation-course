@@ -9,7 +9,7 @@ protected String name;
 protected LocalDate establishedDate;
 
     public Equipment(String name, LocalDate establishedDate) {
-        this.name = this.name;
+        this.name = name;
         this.establishedDate = establishedDate;
     }
 

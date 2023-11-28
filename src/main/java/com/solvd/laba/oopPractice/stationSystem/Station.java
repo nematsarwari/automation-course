@@ -3,6 +3,7 @@ package com.solvd.laba.oopPractice.stationSystem;
 import com.solvd.laba.oopPractice.Exception.InvalidStationException;
 import com.solvd.laba.oopPractice.abstracts.Equipment;
 import com.solvd.laba.oopPractice.interfaces.Maintainable;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -16,7 +17,7 @@ public class Station extends Equipment implements Maintainable {
     private String location;
     public Station(String name, String location, LocalDate establishedDate)throws InvalidStationException {
         super(name, establishedDate);
-        if(name == null || name.isEmpty() || location == null || location.isEmpty()){
+        if(name == null || StringUtils.isEmpty(name) || location == null || StringUtils.isEmpty(location)){
             throw new InvalidStationException("Invalid " + getClass().getName() +": stationName and location");
         }
         this.location = location;

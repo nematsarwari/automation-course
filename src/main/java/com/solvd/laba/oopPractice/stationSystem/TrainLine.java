@@ -3,6 +3,7 @@ package com.solvd.laba.oopPractice.stationSystem;
 import com.solvd.laba.oopPractice.Exception.InvalidTrainLineException;
 import com.solvd.laba.oopPractice.abstracts.Equipment;
 import com.solvd.laba.oopPractice.interfaces.Maintainable;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -15,7 +16,7 @@ public class TrainLine extends Equipment implements Maintainable {
     private int lineNumber;
     public TrainLine(String name, LocalDate establishedDate , int lineNumber)throws InvalidTrainLineException {
         super(name, establishedDate);
-        if (name == null || name.isEmpty() || lineNumber == 0) {
+        if (name == null || StringUtils.isEmpty(name) || lineNumber == 0) {
             throw new InvalidTrainLineException("Invalid " + this.getClass().getSimpleName() + ": TrainName and LineNumber.");
         }
         this.lineNumber = lineNumber;

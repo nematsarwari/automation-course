@@ -2,6 +2,7 @@ package com.solvd.laba.oopPractice.abstracts;
 
 import com.solvd.laba.oopPractice.Exception.InvalidPersonException;
 import com.solvd.laba.oopPractice.interfaces.Printable;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.Objects;
 
@@ -11,7 +12,7 @@ public abstract class Person implements Printable {
     protected long phoneNumber;
 
     public Person(String firstName, String lastName, long phoneNumber) throws InvalidPersonException {
-        if (firstName == null || firstName.isEmpty() || lastName == null || lastName.isEmpty()) {
+        if (firstName == null || StringUtils.isEmpty(firstName) || lastName == null || StringUtils.isEmpty(lastName)) {
             throw new InvalidPersonException("Invalid " + this.getClass().getSimpleName() + ": First name and last name.");
         }
         this.firstName = firstName;

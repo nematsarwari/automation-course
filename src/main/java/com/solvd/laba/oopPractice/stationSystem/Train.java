@@ -4,6 +4,7 @@ import com.solvd.laba.oopPractice.Exception.InvalidTrainException;
 import com.solvd.laba.oopPractice.abstracts.Equipment;
 import com.solvd.laba.oopPractice.interfaces.Maintainable;
 import com.solvd.laba.oopPractice.interfaces.Transportable;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -17,7 +18,7 @@ public class Train extends Equipment implements Transportable, Maintainable {
     public static int trainCount;
     public Train(String name,LocalDate establishedDate , int capacity)throws InvalidTrainException {
         super(name, establishedDate);
-        if (name == null || name.isEmpty() || capacity == 0) {
+        if (name == null || StringUtils.isEmpty(name) || capacity == 0) {
             throw new InvalidTrainException("Invalid " + this.getClass().getSimpleName() + ": TrainName and Capacity.");
         }
         this.name = name;
