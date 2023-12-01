@@ -1,5 +1,7 @@
 package com.solvd.laba.oopPractice;
 
+import com.solvd.laba.oopPractice.Exception.InvalidPersonException;
+import com.solvd.laba.oopPractice.interfaces.CustomLambda;
 import com.solvd.laba.oopPractice.people.Manager;
 import com.solvd.laba.oopPractice.people.Passenger;
 import com.solvd.laba.oopPractice.people.Security;
@@ -7,10 +9,16 @@ import com.solvd.laba.oopPractice.people.TrainDriver;
 import com.solvd.laba.oopPractice.stationSystem.Station;
 import com.solvd.laba.oopPractice.stationSystem.Train;
 import com.solvd.laba.oopPractice.stationSystem.TrainLine;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.util.*;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 public class SubwaySystem {
+    private static final Logger LOGGER = LogManager.getLogger(SubwaySystem.class);
     private String companyName;
     private List<Station> stations;
     private List<Train> trains;
@@ -18,10 +26,10 @@ public class SubwaySystem {
     private Set<Manager> managers;
     private Set<TrainDriver> trainDrivers;
     private Set<Security> securities;
-    private Queue<Passenger> passengers;
+    private HashSet<Passenger> passengers;
     private Map<Integer, Ticket> tickets;
 
-    public SubwaySystem(String companyName, List<Station> stations, List<Train> trains, List<TrainLine> trainLines, Set<Manager> managers, Set<TrainDriver> trainDrivers, Set<Security> securities, Queue<Passenger> passengers, Map<Integer, Ticket> tickets){
+    public SubwaySystem(String companyName, List<Station> stations, List<Train> trains, List<TrainLine> trainLines, Set<Manager> managers, Set<TrainDriver> trainDrivers, Set<Security> securities, Set<Passenger> passengers, Map<Integer, Ticket> tickets){
         this.companyName = companyName;
         this.stations = new ArrayList<>(stations);
         this.trains = new ArrayList<>(trains);
@@ -29,9 +37,47 @@ public class SubwaySystem {
         this.managers = new HashSet<>(managers);
         this.trainDrivers = new HashSet<>(trainDrivers);
         this.securities = new HashSet<>(securities);
-        this.passengers = new PriorityQueue<>(passengers);
+        this.passengers = new HashSet<>(passengers);
         this.tickets = new HashMap<>(tickets);
+        LOGGER.info("This SubwaySystem created: " + companyName);
     }
+    public SubwaySystem(){
+        LOGGER.warn("empty SubwaySystem");
+    }
+
+    // Predicate: Check if a passenger has a valid ticket
+    Predicate<Passenger> hasValidTicket = Passenger::hasValidTicket;
+
+    // Consumer: Process a passenger entering the subway
+    Consumer<Passenger> processEntry = passenger -> {
+        System.out.println(passenger.getFirstName() + " enters the subway station.");
+        if (hasValidTicket.test(passenger)) {
+            System.out.println("Valid ticket. Welcome!");
+        } else {
+            System.out.println("No valid ticket. Please purchase a ticket.");
+        }
+    };
+
+
+    // Function: Process a passenger and return a greeting message
+    Function<Passenger, String> greetPassenger = passenger -> {
+        processEntry.accept(passenger);
+        return "Hello, " + passenger.getFirstName() + "!";
+    };
+    // Additional Lambda Function: Display station closing message
+    Runnable closeStation = () -> System.out.println("Subway station is closing. Thank you for using our services.");
+
+    // Custom Lambda Functions with Generics
+    CustomLambda<Integer> square = (num) -> num * num;
+    CustomLambda<String> stringLength = (str) -> String.valueOf(str.length());
+    CustomLambda<Boolean> not = (flag) -> !flag;
+
+
+    // Simulate closing the subway station
+    public void closeSubwayStation() {
+        closeStation.run();
+    }
+
 
     public String getCompanyName() {
         return companyName;
@@ -89,11 +135,11 @@ public class SubwaySystem {
         this.securities = securities;
     }
 
-    public Queue<Passenger> getPassengers() {
+    public HashSet<Passenger> getPassengers() {
         return passengers;
     }
 
-    public void setPassengers(Queue<Passenger> passengers) {
+    public void setPassengers(HashSet<Passenger> passengers) {
         this.passengers = passengers;
     }
 

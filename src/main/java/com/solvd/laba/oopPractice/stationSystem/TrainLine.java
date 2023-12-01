@@ -6,13 +6,11 @@ import com.solvd.laba.oopPractice.interfaces.Maintainable;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.sql.Driver;
 import java.time.LocalDate;
 import java.util.Objects;
 
 public class TrainLine extends Equipment implements Maintainable {
-    private static final Logger LOGGER = LogManager.getLogger(Driver.class);
+    private static final Logger LOGGER = LogManager.getLogger(TrainLine.class);
     private int lineNumber;
     public TrainLine(String name, LocalDate establishedDate , int lineNumber)throws InvalidTrainLineException {
         super(name, establishedDate);
@@ -20,6 +18,7 @@ public class TrainLine extends Equipment implements Maintainable {
             throw new InvalidTrainLineException("Invalid " + this.getClass().getSimpleName() + ": TrainName and LineNumber.");
         }
         this.lineNumber = lineNumber;
+        LOGGER.info("This trainLine created: " + name);
     }
 
     public int getLineNumber() {

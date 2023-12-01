@@ -6,13 +6,11 @@ import com.solvd.laba.oopPractice.interfaces.Maintainable;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.sql.Driver;
 import java.time.LocalDate;
 import java.util.Objects;
 
 public class Station extends Equipment implements Maintainable {
-    private static final Logger LOGGER = LogManager.getLogger(Driver.class);
+    private static final Logger LOGGER = LogManager.getLogger(Station.class);
 
     private String location;
     public Station(String name, String location, LocalDate establishedDate)throws InvalidStationException {
@@ -21,6 +19,7 @@ public class Station extends Equipment implements Maintainable {
             throw new InvalidStationException("Invalid " + getClass().getName() +": stationName and location");
         }
         this.location = location;
+        LOGGER.info("This station created: " + name);
     }
 
     public String getLocation() {

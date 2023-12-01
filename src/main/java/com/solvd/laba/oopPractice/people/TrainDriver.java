@@ -4,14 +4,12 @@ import com.solvd.laba.oopPractice.Exception.InvalidPersonException;
 import com.solvd.laba.oopPractice.abstracts.Person;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.sql.Driver;
 import java.time.LocalDate;
 import java.util.Objects;
 
 
 public class TrainDriver extends Person {
-    private static final Logger LOGGER = LogManager.getLogger(Driver.class);
+    private static final Logger LOGGER = LogManager.getLogger(TrainDriver.class);
     private LocalDate hiredDate;
     private int batch;
     public static int countDriver;
@@ -20,6 +18,7 @@ public class TrainDriver extends Person {
         this.hiredDate = hiredDate;
         this.batch = batch;
         countDriver++;
+        LOGGER.info("This trainDriver created: " + firstName + " " + lastName);
     }
 
     public LocalDate getHiredDate() {

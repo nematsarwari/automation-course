@@ -1,12 +1,15 @@
 package com.solvd.laba.oopPractice.abstracts;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.time.LocalDate;
 import java.util.Objects;
 
 public abstract class Equipment {
-
-protected String name;
-protected LocalDate establishedDate;
+    private static final Logger LOGGER = LogManager.getLogger(Equipment.class);
+    protected String name;
+    protected LocalDate establishedDate;
 
     public Equipment(String name, LocalDate establishedDate) {
         this.name = name;

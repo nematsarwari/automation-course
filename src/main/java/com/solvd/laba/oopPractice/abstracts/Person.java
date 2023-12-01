@@ -3,10 +3,13 @@ package com.solvd.laba.oopPractice.abstracts;
 import com.solvd.laba.oopPractice.Exception.InvalidPersonException;
 import com.solvd.laba.oopPractice.interfaces.Printable;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.Objects;
 
 public abstract class Person implements Printable {
+    private static final Logger LOGGER = LogManager.getLogger(Person.class);
     protected String firstName;
     protected String lastName;
     protected long phoneNumber;
@@ -18,6 +21,7 @@ public abstract class Person implements Printable {
         this.firstName = firstName;
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
+        LOGGER.info("This person created: " + firstName + " " + lastName);
     }
 
     public final String getFirstName() {

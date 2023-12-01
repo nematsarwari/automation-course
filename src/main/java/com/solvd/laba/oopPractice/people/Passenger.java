@@ -4,18 +4,19 @@ import com.solvd.laba.oopPractice.Exception.InvalidPersonException;
 import com.solvd.laba.oopPractice.abstracts.Person;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.sql.Driver;
 import java.time.LocalDate;
 import java.util.Objects;
 
 
 public class Passenger extends Person {
-    private static final Logger LOGGER = LogManager.getLogger(Driver.class);
+    private static final Logger LOGGER = LogManager.getLogger(Passenger.class);
     private LocalDate ticketDate;
-    public Passenger(String firstName, String lastName, long phoneNumber,LocalDate ticketDate) throws InvalidPersonException {
+    public boolean hasValidTicket;
+    public Passenger(String firstName, String lastName, long phoneNumber,LocalDate ticketDate, boolean hasValidTicket) throws InvalidPersonException {
         super(firstName, lastName, phoneNumber);
         this.ticketDate = ticketDate;
+        this.hasValidTicket = hasValidTicket;
+        LOGGER.info("This passenger created: " + firstName + " " + lastName);
     }
 
     public LocalDate getTicketDate() {
@@ -60,5 +61,9 @@ public class Passenger extends Person {
         LOGGER.info("LastName: " + getLastName());
         LOGGER.info("PhoneNumber: " + getPhoneNumber());
         LOGGER.info("ticketDate: " + getTicketDate());
+    }
+
+    public boolean hasValidTicket() {
+        return hasValidTicket;
     }
 }

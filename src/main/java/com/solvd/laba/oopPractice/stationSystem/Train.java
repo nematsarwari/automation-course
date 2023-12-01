@@ -7,13 +7,11 @@ import com.solvd.laba.oopPractice.interfaces.Transportable;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.sql.Driver;
 import java.time.LocalDate;
 import java.util.Objects;
 
 public class Train extends Equipment implements Transportable, Maintainable {
-    private static final Logger LOGGER = LogManager.getLogger(Driver.class);
+    private static final Logger LOGGER = LogManager.getLogger(Train.class);
     private int capacity;
     public static int trainCount;
     public Train(String name,LocalDate establishedDate , int capacity)throws InvalidTrainException {
@@ -21,9 +19,10 @@ public class Train extends Equipment implements Transportable, Maintainable {
         if (name == null || StringUtils.isEmpty(name) || capacity == 0) {
             throw new InvalidTrainException("Invalid " + this.getClass().getSimpleName() + ": TrainName and Capacity.");
         }
-        this.name = name;
         this.capacity = capacity;
         trainCount++;
+        LOGGER.info("This train created: " + name);
+
     }
 
     public int getCapacity() {

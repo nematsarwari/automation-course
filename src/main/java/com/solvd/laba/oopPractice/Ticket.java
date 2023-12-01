@@ -4,12 +4,10 @@ import com.solvd.laba.oopPractice.Exception.UnsuccessfulPaymentRuntime;
 import com.solvd.laba.oopPractice.interfaces.Payable;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.sql.Driver;
 import java.util.Objects;
 
 public class Ticket implements Payable {
-    private static final Logger LOGGER = LogManager.getLogger(Driver.class);
+    private static final Logger LOGGER = LogManager.getLogger(Ticket.class);
 
     private String ticketHolderName;
     private String ticketHolderLastname;
@@ -21,6 +19,7 @@ public class Ticket implements Payable {
         this.ticketHolderName = ticketHolderName;
         this.ticketHolderLastname = ticketHolderLastname;
         ticketNumber++;
+        LOGGER.info("This ticket created: " + ticketHolderName);
     }
 
     public String getTicketHolderName() {

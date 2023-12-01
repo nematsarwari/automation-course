@@ -4,15 +4,12 @@ import com.solvd.laba.oopPractice.Exception.InvalidPersonException;
 import com.solvd.laba.oopPractice.abstracts.Person;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.sql.Driver;
 import java.time.LocalDate;
 import java.util.Objects;
 
 
 public class Manager extends Person {
-
-    private static final Logger LOGGER = LogManager.getLogger(Driver.class);
+    private static final Logger LOGGER = LogManager.getLogger(Manager.class);
     private LocalDate hiredDate;
     private int batch;
     public static int countManager;
@@ -22,6 +19,7 @@ public class Manager extends Person {
         this.hiredDate = hiredDate;
         this.batch = batch;
         countManager++;
+        LOGGER.info("This manager created: " + firstName + " " + lastName);
     }
 
     public LocalDate getHiredDate() {
