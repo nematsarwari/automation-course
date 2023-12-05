@@ -1,4 +1,4 @@
-package customLinklist;
+package com.solvd.laba.customLinklist;
 
 public class Node<T> {
     protected T data;

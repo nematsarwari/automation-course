@@ -1,21 +1,26 @@
 package com.solvd.laba.oopPractice.people;
 
 import com.solvd.laba.oopPractice.Exception.InvalidPersonException;
+import com.solvd.laba.oopPractice.FileUtils;
+import com.solvd.laba.oopPractice.Ticket;
 import com.solvd.laba.oopPractice.abstracts.Person;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import java.time.LocalDate;
+import java.util.List;
 import java.util.Objects;
 
 
 public class Passenger extends Person {
     private static final Logger LOGGER = LogManager.getLogger(Passenger.class);
     private LocalDate ticketDate;
-    public boolean hasValidTicket;
-    public Passenger(String firstName, String lastName, long phoneNumber,LocalDate ticketDate, boolean hasValidTicket) throws InvalidPersonException {
+    private Ticket ticket;
+    FileUtils fileUtils;
+
+    public Passenger(String firstName, String lastName, long phoneNumber, LocalDate ticketDate) throws InvalidPersonException {
         super(firstName, lastName, phoneNumber);
         this.ticketDate = ticketDate;
-        this.hasValidTicket = hasValidTicket;
         LOGGER.info("This passenger created: " + firstName + " " + lastName);
     }
 
@@ -27,43 +32,59 @@ public class Passenger extends Person {
         this.ticketDate = ticketDate;
     }
 
+    public void assignTicket(Ticket ticket) {
+        this.ticket = ticket;
+    }
+
+    public Ticket getTicket() {
+        return ticket;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
         Passenger passenger = (Passenger) o;
-        return Objects.equals(ticketDate, passenger.ticketDate);
+        return Objects.equals(ticketDate, passenger.ticketDate) && Objects.equals(ticket, passenger.ticket);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(super.hashCode(), ticketDate);
+        return Objects.hash(super.hashCode(), ticketDate, ticket);
     }
 
     @Override
     public String toString() {
-        return "Passenger{name=" + firstName + ", lastName=" + lastName + ", ticketDate=" + ticketDate +
+        return "Passenger{" +
+                "ticketDate=" + ticketDate +
+                ", ticket=" + ticket +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", phoneNumber=" + phoneNumber +
                 '}';
+    }
+    String path = "C:\\Users\\nemat\\IdeaProjects\\automation-course\\src\\test\\java\\passengerDocuments\\"+getFirstName()+"Documents.txt";
+    @Override
+    public void writeDocument() {
+        fileUtils = new FileUtils();
+        fileUtils.writeToFile(path,
+                "FirstName: " + getFirstName()+
+                        "\nLastName: " + getLastName()+
+                        "\nPhoneNumber: " + getPhoneNumber());
+        LOGGER.info("document successfully written!");
     }
 
     @Override
     public void printDocument() {
-        LOGGER.info("FirstName = " + getFirstName());
-        LOGGER.info("LastName = " + getLastName());
-        LOGGER.info("PhoneNumber = " + getPhoneNumber());
-        LOGGER.info("ticketDate = " + getTicketDate());
-    }
+        List<String> lines = fileUtils.readFromFile(path);
 
-    @Override
-    public void showID() {
-        LOGGER.info("Title: Passenger");
-        LOGGER.info("LastName: " + getLastName());
-        LOGGER.info("PhoneNumber: " + getPhoneNumber());
-        LOGGER.info("ticketDate: " + getTicketDate());
-    }
+        // Runnable lambda and forEach
+        Runnable printLinesRunnable = () -> {
+            lines.forEach(System.out::println);
+        };
 
-    public boolean hasValidTicket() {
-        return hasValidTicket;
+        // Execute the Runnable
+        printLinesRunnable.run();
     }
 }

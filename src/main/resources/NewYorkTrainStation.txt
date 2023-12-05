@@ -1,4 +1,0 @@
-1: New York and Harlem Railroad: Established on November 26, 1831
-2: Long Island Rail Road (LIRR): Chartered on April 24, 1834
-3: New York Central Railroad: Founded in 1853
-4: Interborough Rapid Transit (IRT): The first subway line in New York City, the IRT opened on October 27, 1904

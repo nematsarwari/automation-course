@@ -1,0 +1,1059 @@
+[INFO ] 2023-12-04 18:25:24.743 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 18:25:24.753 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 18:27:49.977 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 18:27:49.980 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 18:35:40.102 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 18:35:40.105 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 19:45:20.385 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 19:45:20.388 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 19:45:20.388 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 19:45:20.388 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 19:45:20.392 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 19:45:20.392 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 19:45:20.392 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 19:45:20.392 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 19:45:20.394 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 19:45:20.394 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 19:45:20.394 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 19:45:20.396 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 19:45:20.407 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 19:45:20.407 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 19:45:20.408 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 19:45:20.408 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 19:45:20.408 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 19:45:20.408 [main] Manager - This manager created: Maya Foster
+[ERROR] 2023-12-04 19:45:20.408 [main] SubwaySystem - No season found for the month: June 
+[INFO ] 2023-12-04 19:46:26.964 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 19:46:26.966 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 19:46:26.966 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 19:46:26.966 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 19:46:26.969 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 19:46:26.969 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 19:46:26.969 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 19:46:26.969 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 19:46:26.971 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 19:46:26.971 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 19:46:26.971 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 19:46:26.971 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 19:46:26.982 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 19:46:26.983 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 19:46:26.983 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 19:46:26.983 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 19:46:26.983 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 19:46:26.983 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 19:46:26.983 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 19:46:26.983 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 19:46:26.984 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 19:46:26.985 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 19:46:26.985 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 19:46:26.985 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 19:46:26.985 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 19:46:26.985 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 19:46:26.986 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 19:46:26.986 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 19:46:26.988 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 19:46:26.989 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 19:46:26.989 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 19:46:26.989 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 19:46:26.989 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 19:46:26.989 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 19:46:26.989 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 19:46:26.989 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 19:46:26.990 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 19:46:26.991 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 19:46:26.991 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 19:46:26.991 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 19:46:26.991 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 19:46:26.991 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 19:46:26.991 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 19:46:26.991 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 19:46:26.994 [main] Ticket - This ticket created: Aidan
+[INFO ] 2023-12-04 19:46:26.994 [main] Ticket - This ticket created: Jackson
+[INFO ] 2023-12-04 19:46:26.994 [main] Ticket - This ticket created: Evelyn
+[INFO ] 2023-12-04 19:46:26.995 [main] Ticket - This ticket created: Chloe
+[INFO ] 2023-12-04 19:46:26.995 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 19:54:39.373 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 19:54:39.378 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 20:04:39.795 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 20:04:39.799 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 20:04:39.805 [main] DayOfWeek - Initializing DayOfWeek enum
+[INFO ] 2023-12-04 20:43:46.826 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 20:43:46.828 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 20:43:46.828 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 20:43:46.828 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 20:43:46.830 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 20:43:46.830 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 20:43:46.830 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 20:43:46.831 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 20:43:46.833 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 20:43:46.833 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 20:43:46.833 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 20:43:46.833 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 20:43:46.845 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 20:43:46.847 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 20:43:46.847 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 20:43:46.847 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 20:43:46.847 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 20:43:46.847 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 20:43:46.847 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 20:43:46.847 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 20:43:46.848 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 20:43:46.849 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 20:43:46.849 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 20:43:46.849 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 20:43:46.849 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 20:43:46.849 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 20:43:46.849 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 20:43:46.849 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 20:43:46.851 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 20:43:46.852 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 20:43:46.852 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 20:43:46.852 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 20:43:46.852 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 20:43:46.853 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 20:43:46.853 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 20:43:46.853 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 20:43:46.854 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 20:43:46.854 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 20:43:46.855 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 20:43:46.855 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 20:43:46.855 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 20:43:46.855 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 20:43:46.855 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 20:43:46.855 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 20:43:46.856 [main] Ticket - ticket created
+[INFO ] 2023-12-04 20:43:46.857 [main] Ticket - ticket created
+[INFO ] 2023-12-04 20:43:46.857 [main] Ticket - ticket created
+[INFO ] 2023-12-04 20:43:46.857 [main] Ticket - ticket created
+[INFO ] 2023-12-04 20:43:46.857 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:02:02.356 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:02:02.358 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:02:02.358 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:02:02.359 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:02:02.361 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:02:02.361 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:02:02.361 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:02:02.361 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:02:02.364 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:02:02.365 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:02:02.365 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:02:02.365 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:02:02.375 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:02:02.377 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:02:02.378 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:02:02.378 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:02:02.378 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:02:02.378 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:02:02.378 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:02:02.378 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:02:02.380 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:02:02.381 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:02:02.381 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:02:02.381 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:02:02.381 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:02:02.381 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:02:02.381 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:02:02.382 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:02:02.383 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:02:02.384 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:02:02.384 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:02:02.384 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:02:02.384 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:02:02.384 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:02:02.384 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:02:02.384 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:02:02.385 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:02:02.385 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:02:02.387 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:02:02.387 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:02:02.387 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:02:02.387 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:02:02.387 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:02:02.387 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:02:02.389 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:02:02.389 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:02:02.389 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:02:02.389 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:02:02.389 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:02:59.124 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:02:59.127 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:02:59.127 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:02:59.127 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:02:59.130 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:02:59.130 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:02:59.131 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:02:59.131 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:02:59.133 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:02:59.133 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:02:59.133 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:02:59.133 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:02:59.146 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:02:59.147 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:02:59.148 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:02:59.148 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:02:59.148 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:02:59.148 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:02:59.148 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:02:59.148 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:02:59.149 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:02:59.150 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:02:59.150 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:02:59.150 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:02:59.150 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:02:59.150 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:02:59.150 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:02:59.151 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:02:59.152 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:02:59.153 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:02:59.153 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:02:59.153 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:02:59.153 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:02:59.153 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:02:59.153 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:02:59.153 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:02:59.154 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:02:59.155 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:02:59.155 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:02:59.155 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:02:59.156 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:02:59.156 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:02:59.156 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:02:59.156 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:02:59.158 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:02:59.158 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:02:59.158 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:02:59.158 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:02:59.159 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:08:36.634 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:08:36.637 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:08:36.637 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:08:36.637 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:08:36.641 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:08:36.641 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:08:36.641 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:08:36.641 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:08:36.643 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:08:36.643 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:08:36.643 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:08:36.643 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:08:36.657 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:08:36.659 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:08:36.659 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:08:36.660 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:08:36.660 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:08:36.660 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:08:36.660 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:08:36.660 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:08:36.661 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:08:36.662 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:08:36.662 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:08:36.662 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:08:36.662 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:08:36.662 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:08:36.662 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:08:36.662 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:08:36.664 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:08:36.664 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:08:36.664 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:08:36.664 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:08:36.664 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:08:36.665 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:08:36.665 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:08:36.665 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:08:36.666 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:08:36.667 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:08:36.667 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:08:36.667 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:08:36.667 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:08:36.667 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:08:36.667 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:08:36.667 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:08:36.670 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:08:36.671 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:08:36.671 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:08:36.671 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:08:36.671 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:11:33.889 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:11:33.893 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:11:33.893 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:11:33.893 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:11:33.896 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:11:33.896 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:11:33.896 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:11:33.896 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:11:33.898 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:11:33.899 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:11:33.899 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:11:33.899 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:11:33.911 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:11:33.912 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:11:33.913 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:11:33.913 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:11:33.913 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:11:33.913 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:11:33.913 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:11:33.913 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:11:33.915 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:11:33.916 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:11:33.916 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:11:33.916 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:11:33.916 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:11:33.916 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:11:33.916 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:11:33.916 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:11:33.917 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:11:33.918 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:11:33.918 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:11:33.918 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:11:33.919 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:11:33.919 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:11:33.919 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:11:33.919 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:11:33.920 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:11:33.920 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:11:33.922 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:11:33.922 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:11:33.922 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:11:33.922 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:11:33.922 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:11:33.923 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:11:33.926 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:11:33.926 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:11:33.926 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:11:33.926 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:11:33.926 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:15:56.252 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:15:56.255 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:15:56.255 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:15:56.255 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:15:56.259 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:15:56.259 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:15:56.259 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:15:56.259 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:15:56.262 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:15:56.262 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:15:56.262 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:15:56.262 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:15:56.275 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:15:56.278 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:15:56.279 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:15:56.279 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:15:56.279 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:15:56.279 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:15:56.279 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:15:56.279 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:15:56.280 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:15:56.281 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:15:56.281 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:15:56.281 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:15:56.281 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:15:56.281 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:15:56.281 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:15:56.281 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:15:56.283 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:15:56.284 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:15:56.285 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:15:56.285 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:15:56.285 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:15:56.285 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:15:56.285 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:15:56.285 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:15:56.286 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:15:56.287 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:15:56.287 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:15:56.287 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:15:56.287 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:15:56.287 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:15:56.287 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:15:56.287 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:15:56.291 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:15:56.291 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:15:56.291 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:15:56.291 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:15:56.293 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:17:09.116 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:17:09.120 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:17:09.120 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:17:09.120 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:17:09.123 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:17:09.123 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:17:09.123 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:17:09.124 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:17:09.126 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:17:09.126 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:17:09.126 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:17:09.127 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:17:09.138 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:17:09.141 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:17:09.141 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:17:09.141 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:17:09.141 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:17:09.141 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:17:09.141 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:17:09.142 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:17:09.143 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:17:09.144 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:17:09.144 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:17:09.144 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:17:09.144 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:17:09.145 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:17:09.145 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:17:09.145 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:17:09.146 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:17:09.147 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:17:09.147 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:17:09.147 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:17:09.148 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:17:09.148 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:17:09.148 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:17:09.148 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:17:09.150 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:17:09.151 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:17:09.151 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:17:09.152 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:17:09.152 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:17:09.152 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:17:09.152 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:17:09.152 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:17:09.155 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:17:09.155 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:17:09.155 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:17:09.155 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:17:09.156 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:17:51.683 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:17:51.685 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:17:51.685 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:17:51.685 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:17:51.688 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:17:51.688 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:17:51.688 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:17:51.688 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:17:51.691 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:17:51.691 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:17:51.692 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:17:51.692 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:17:51.704 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:17:51.707 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:17:51.707 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:17:51.707 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:17:51.707 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:17:51.707 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:17:51.707 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:17:51.707 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:17:51.708 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:17:51.709 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:17:51.709 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:17:51.709 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:17:51.709 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:17:51.710 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:17:51.710 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:17:51.710 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:17:51.712 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:17:51.713 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:17:51.713 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:17:51.713 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:17:51.713 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:17:51.713 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:17:51.713 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:17:51.713 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:17:51.714 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:17:51.715 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:17:51.715 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:17:51.715 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:17:51.715 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:17:51.716 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:17:51.716 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:17:51.716 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:17:51.718 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:17:51.719 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:17:51.719 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:17:51.719 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:17:51.719 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:18:48.774 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:18:48.777 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:18:48.778 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:18:48.778 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:18:48.780 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:18:48.781 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:18:48.781 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:18:48.781 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:18:48.783 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:18:48.783 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:18:48.783 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:18:48.784 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:18:48.798 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:18:48.800 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:18:48.801 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:18:48.801 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:18:48.801 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:18:48.801 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:18:48.801 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:18:48.801 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:18:48.802 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:18:48.803 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:18:48.803 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:18:48.803 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:18:48.803 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:18:48.803 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:18:48.803 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:18:48.803 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:18:48.804 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:18:48.805 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:18:48.806 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:18:48.806 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:18:48.806 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:18:48.806 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:18:48.806 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:18:48.806 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:18:48.808 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:18:48.809 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:18:48.809 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:18:48.810 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:18:48.810 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:18:48.810 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:18:48.810 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:18:48.810 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:18:48.813 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:18:48.813 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:18:48.813 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:18:48.813 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:18:48.814 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:22:09.260 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:22:09.263 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:22:09.265 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:22:09.265 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:22:09.267 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:22:09.267 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:22:09.267 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:22:09.267 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:22:09.270 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:22:09.270 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:22:09.270 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:22:09.271 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:22:09.283 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:22:09.285 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:22:09.285 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:22:09.285 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:22:09.285 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:22:09.286 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:22:09.286 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:22:09.286 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:22:09.288 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:22:09.289 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:22:09.289 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:22:09.289 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:22:09.289 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:22:09.289 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:22:09.289 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:22:09.289 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:22:09.291 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:22:09.291 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:22:09.291 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:22:09.291 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:22:09.291 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:22:09.291 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:22:09.291 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:22:09.292 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:22:09.293 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:22:09.294 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:22:09.294 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:22:09.294 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:22:09.294 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:22:09.294 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:22:09.294 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:22:09.294 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:22:09.298 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:22:09.298 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:22:09.298 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:22:09.299 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:22:09.299 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:29:30.130 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:29:30.134 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:29:30.135 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:29:30.135 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:29:30.138 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:29:30.138 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:29:30.138 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:29:30.138 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:29:30.141 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:29:30.141 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:29:30.141 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:29:30.142 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:29:30.154 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:29:30.156 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:29:30.156 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:29:30.156 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:29:30.156 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:29:30.157 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:29:30.157 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:29:30.157 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:29:30.158 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:29:30.158 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:29:30.160 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:29:30.160 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:29:30.160 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:29:30.160 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:29:30.160 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:29:30.160 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:29:30.162 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:29:30.162 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:29:30.163 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:29:30.163 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:29:30.163 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:29:30.163 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:29:30.163 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:29:30.163 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:29:30.164 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:29:30.165 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:29:30.165 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:29:30.165 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:29:30.165 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:29:30.166 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:29:30.166 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:29:30.166 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:29:30.168 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:29:30.168 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:29:30.168 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:29:30.168 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:29:30.168 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:30:31.214 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:30:31.217 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:30:31.217 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:30:31.217 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:30:31.221 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:30:31.222 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:30:31.222 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:30:31.222 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:30:31.224 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:30:31.225 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:30:31.225 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:30:31.226 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:30:31.240 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:30:31.243 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:30:31.243 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:30:31.243 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:30:31.243 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:30:31.243 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:30:31.243 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:30:31.243 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:30:31.246 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:30:31.246 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:30:31.247 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:30:31.247 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:30:31.247 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:30:31.247 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:30:31.247 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:30:31.247 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:30:31.248 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:30:31.249 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:30:31.249 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:30:31.249 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:30:31.250 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:30:31.250 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:30:31.250 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:30:31.250 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:30:31.251 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:30:31.252 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:30:31.252 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:30:31.252 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:30:31.252 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:30:31.252 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:30:31.252 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:30:31.252 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:30:31.257 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:30:31.257 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:30:31.257 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:30:31.257 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:30:31.258 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:32:15.913 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:32:15.916 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:32:15.916 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:32:15.916 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:32:15.919 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:32:15.919 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:32:15.919 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:32:15.919 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:32:15.921 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:32:15.921 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:32:15.922 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:32:15.922 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:32:15.934 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:32:15.936 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:32:15.937 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:32:15.937 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:32:15.937 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:32:15.937 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:32:15.938 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:32:15.938 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:32:15.939 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:32:15.940 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:32:15.941 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:32:15.941 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:32:15.941 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:32:15.941 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:32:15.941 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:32:15.941 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:32:15.943 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:32:15.943 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:32:15.943 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:32:15.943 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:32:15.944 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:32:15.944 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:32:15.944 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:32:15.944 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:32:15.945 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:32:15.946 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:32:15.946 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:32:15.946 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:32:15.946 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:32:15.946 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:32:15.946 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:32:15.946 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:32:15.949 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:32:15.949 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:32:15.949 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:32:15.949 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:32:15.950 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:32:44.382 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:32:44.384 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:32:44.385 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:32:44.385 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:32:44.387 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:32:44.387 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:32:44.387 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:32:44.387 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:32:44.389 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:32:44.390 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:32:44.390 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:32:44.390 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:32:44.403 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:32:44.405 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:32:44.405 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:32:44.406 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:32:44.406 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:32:44.406 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:32:44.406 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:32:44.406 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:32:44.407 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:32:44.408 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:32:44.408 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:32:44.408 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:32:44.409 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:32:44.409 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:32:44.409 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:32:44.409 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:32:44.410 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:32:44.411 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:32:44.411 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:32:44.411 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:32:44.411 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:32:44.411 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:32:44.411 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:32:44.412 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:32:44.413 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:32:44.413 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:32:44.413 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:32:44.414 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:32:44.414 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:32:44.414 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:32:44.414 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:32:44.414 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:32:44.416 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:32:44.416 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:32:44.416 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:32:44.416 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:32:44.418 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:34:49.920 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:34:49.924 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:34:49.924 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:34:49.924 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:34:49.927 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:34:49.927 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:34:49.927 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:34:49.928 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:34:49.930 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:34:49.930 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:34:49.930 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:34:49.931 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:34:49.947 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:34:49.949 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:34:49.950 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:34:49.950 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:34:49.950 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:34:49.950 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:34:49.950 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:34:49.950 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:34:49.953 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:34:49.954 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:34:49.954 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:34:49.954 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:34:49.954 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:34:49.954 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:34:49.954 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:34:49.954 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:34:49.956 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:34:49.956 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:34:49.958 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:34:49.958 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:34:49.958 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:34:49.958 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:34:49.958 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:34:49.958 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:34:49.960 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:34:49.960 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:34:49.960 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:34:49.962 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:34:49.962 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:34:49.962 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:34:49.962 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:34:49.962 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:34:49.965 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:34:49.965 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:34:49.965 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:34:49.965 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:34:49.966 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:35:13.839 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:35:13.842 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:35:13.842 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:35:13.842 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:35:13.845 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:35:13.845 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:35:13.845 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:35:13.845 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:35:13.849 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:35:13.849 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:35:13.849 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:35:13.849 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:35:13.862 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:35:13.864 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:35:13.864 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:35:13.865 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:35:13.865 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:35:13.865 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:35:13.865 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:35:13.865 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:35:13.867 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:35:13.867 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:35:13.867 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:35:13.867 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:35:13.868 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:35:13.868 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:35:13.868 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:35:13.868 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:35:13.869 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:35:13.870 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:35:13.870 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:35:13.870 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:35:13.870 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:35:13.870 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:35:13.870 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:35:13.870 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:35:13.871 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:35:13.873 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:35:13.873 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:35:13.873 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:35:13.873 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:35:13.874 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:35:13.874 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:35:13.874 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:35:13.876 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:35:13.876 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:35:13.876 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:35:13.876 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:35:13.877 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:41:32.836 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:41:32.840 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:41:32.840 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:41:32.840 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:41:32.843 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:41:32.844 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:41:32.844 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:41:32.844 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:41:32.846 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:41:32.846 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:41:32.846 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:41:32.846 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:41:32.856 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:41:32.858 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:41:32.858 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:41:32.858 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:41:32.859 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:41:32.859 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:41:32.859 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:41:32.859 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:41:32.860 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:41:32.862 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:41:32.862 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:41:32.862 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:41:32.862 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:41:32.862 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:41:32.862 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:41:32.862 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:41:32.863 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:41:32.865 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:41:32.865 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:41:32.865 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:41:32.866 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:41:32.866 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:41:32.866 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:41:32.866 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:41:32.867 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:41:32.868 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:41:32.868 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:41:32.868 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:41:32.868 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:41:32.868 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:41:32.868 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:41:32.868 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:41:32.870 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:41:32.870 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:41:32.870 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:41:32.870 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:41:32.871 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:42:38.500 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:42:38.503 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:42:38.503 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:42:38.504 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:42:38.506 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:42:38.506 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:42:38.506 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:42:38.506 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:42:38.508 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:42:38.509 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:42:38.509 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:42:38.509 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:42:38.521 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:42:38.522 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:42:38.522 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:42:38.522 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:42:38.523 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:42:38.523 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:42:38.523 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:42:38.523 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:42:38.525 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:42:38.525 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:42:38.526 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:42:38.526 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:42:38.526 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:42:38.526 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:42:38.526 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:42:38.526 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:42:38.527 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:42:38.528 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:42:38.528 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:42:38.529 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:42:38.529 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:42:38.529 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:42:38.529 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:42:38.529 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:42:38.531 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:42:38.532 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:42:38.532 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:42:38.532 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:42:38.532 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:42:38.532 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:42:38.532 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:42:38.532 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:42:38.535 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:42:38.535 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:42:38.535 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:42:38.535 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:42:38.536 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:48:46.470 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:48:46.473 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:48:46.473 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:48:46.473 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:48:46.477 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:48:46.477 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:48:46.477 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:48:46.477 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:48:46.479 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:48:46.479 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:48:46.479 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:48:46.479 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:48:46.493 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:48:46.494 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:48:46.494 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:48:46.496 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:48:46.496 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:48:46.496 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:48:46.496 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:48:46.496 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:48:46.497 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:48:46.498 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:48:46.498 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:48:46.498 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:48:46.498 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:48:46.499 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:48:46.499 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:48:46.499 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:48:46.500 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:48:46.500 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:48:46.501 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:48:46.501 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:48:46.501 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:48:46.501 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:48:46.501 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:48:46.501 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:48:46.502 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:48:46.502 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:48:46.503 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:48:46.503 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:48:46.503 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:48:46.503 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:48:46.503 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:48:46.503 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:48:46.506 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:48:46.506 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:48:46.506 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:48:46.506 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:48:46.507 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation
+[INFO ] 2023-12-04 23:50:22.510 [main] Station - This station created: Westminster
+[INFO ] 2023-12-04 23:50:22.513 [main] Station - This station created: Grand Central
+[INFO ] 2023-12-04 23:50:22.513 [main] Station - This station created: Central Station
+[INFO ] 2023-12-04 23:50:22.513 [main] Station - This station created: Union Station
+[INFO ] 2023-12-04 23:50:22.517 [main] Train - This train created: Starlight
+[INFO ] 2023-12-04 23:50:22.517 [main] Train - This train created: Empire
+[INFO ] 2023-12-04 23:50:22.517 [main] Train - This train created: Southwest
+[INFO ] 2023-12-04 23:50:22.517 [main] Train - This train created: Eagle
+[INFO ] 2023-12-04 23:50:22.520 [main] TrainLine - This trainLine created: Blue Line
+[INFO ] 2023-12-04 23:50:22.520 [main] TrainLine - This trainLine created: Limited
+[INFO ] 2023-12-04 23:50:22.520 [main] TrainLine - This trainLine created: Silver
+[INFO ] 2023-12-04 23:50:22.520 [main] TrainLine - This trainLine created: Golden
+[INFO ] 2023-12-04 23:50:22.534 [main] Person - This person created: Olivia Bennett
+[INFO ] 2023-12-04 23:50:22.536 [main] Manager - This manager created: Olivia Bennett
+[INFO ] 2023-12-04 23:50:22.537 [main] Person - This person created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:50:22.537 [main] Manager - This manager created: Ethan Rodriguez
+[INFO ] 2023-12-04 23:50:22.537 [main] Person - This person created: Maya Foster
+[INFO ] 2023-12-04 23:50:22.537 [main] Manager - This manager created: Maya Foster
+[INFO ] 2023-12-04 23:50:22.537 [main] Person - This person created: Nathan Reynolds
+[INFO ] 2023-12-04 23:50:22.537 [main] Manager - This manager created: Nathan Reynolds
+[INFO ] 2023-12-04 23:50:22.538 [main] Person - This person created: Harper Mitchell
+[INFO ] 2023-12-04 23:50:22.539 [main] TrainDriver - This trainDriver created: Harper Mitchell
+[INFO ] 2023-12-04 23:50:22.539 [main] Person - This person created: Adrian Williams
+[INFO ] 2023-12-04 23:50:22.539 [main] TrainDriver - This trainDriver created: Adrian Williams
+[INFO ] 2023-12-04 23:50:22.539 [main] Person - This person created: Lily Anderson
+[INFO ] 2023-12-04 23:50:22.539 [main] TrainDriver - This trainDriver created: Lily Anderson
+[INFO ] 2023-12-04 23:50:22.539 [main] Person - This person created: Oliver Martinez
+[INFO ] 2023-12-04 23:50:22.540 [main] TrainDriver - This trainDriver created: Oliver Martinez
+[INFO ] 2023-12-04 23:50:22.541 [main] Person - This person created: Serena Thompson
+[INFO ] 2023-12-04 23:50:22.541 [main] Security - This security created: Serena Thompson
+[INFO ] 2023-12-04 23:50:22.542 [main] Person - This person created: Lucas Turner
+[INFO ] 2023-12-04 23:50:22.542 [main] Security - This security created: Lucas Turner
+[INFO ] 2023-12-04 23:50:22.542 [main] Person - This person created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:50:22.542 [main] Security - This security created: Sofia Rodriguez
+[INFO ] 2023-12-04 23:50:22.542 [main] Person - This person created: Owen Campbell
+[INFO ] 2023-12-04 23:50:22.542 [main] Security - This security created: Owen Campbell
+[INFO ] 2023-12-04 23:50:22.544 [main] Person - This person created: Amelia Turner
+[INFO ] 2023-12-04 23:50:22.544 [main] Passenger - This passenger created: Amelia Turner
+[INFO ] 2023-12-04 23:50:22.544 [main] Person - This person created: Mitchell Foster
+[INFO ] 2023-12-04 23:50:22.544 [main] Passenger - This passenger created: Mitchell Foster
+[INFO ] 2023-12-04 23:50:22.545 [main] Person - This person created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:50:22.545 [main] Passenger - This passenger created: Sebastian  Reynolds
+[INFO ] 2023-12-04 23:50:22.545 [main] Person - This person created: Isabella Rivera
+[INFO ] 2023-12-04 23:50:22.545 [main] Passenger - This passenger created: Isabella Rivera
+[INFO ] 2023-12-04 23:50:22.548 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:50:22.548 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:50:22.548 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:50:22.548 [main] Ticket - ticket created
+[INFO ] 2023-12-04 23:50:22.549 [main] SubwaySystem - This SubwaySystem created: UnionSubwayStation

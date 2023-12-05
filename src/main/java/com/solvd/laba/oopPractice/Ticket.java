@@ -1,95 +1,76 @@
 package com.solvd.laba.oopPractice;
 
-import com.solvd.laba.oopPractice.Exception.UnsuccessfulPaymentRuntime;
+import com.solvd.laba.oopPractice.Exception.UnsuccessfulPaymentException;
 import com.solvd.laba.oopPractice.interfaces.Payable;
+import com.solvd.laba.oopPractice.interfaces.PaymentLogger;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import java.util.Objects;
+
 
 public class Ticket implements Payable {
     private static final Logger LOGGER = LogManager.getLogger(Ticket.class);
 
-    private String ticketHolderName;
-    private String ticketHolderLastname;
-    private double price = 30.0;
-    private static int ticketNumber;
-    private int l;
-
-    public Ticket(String ticketHolderName, String ticketHolderLastname){
-        this.ticketHolderName = ticketHolderName;
-        this.ticketHolderLastname = ticketHolderLastname;
-        ticketNumber++;
-        LOGGER.info("This ticket created: " + ticketHolderName);
+    private int ticketNumber;
+    static double price = 20.0;
+    private int payCounter;
+    public Ticket(int ticketNumber){
+        this.ticketNumber = ticketNumber;
+        LOGGER.info("ticket created");
     }
 
-    public String getTicketHolderName() {
-        return ticketHolderName;
-    }
-
-    public void setTicketHolderName(String ticketHolderName) {
-        this.ticketHolderName = ticketHolderName;
-    }
-
-    public String getTicketHolderLastname() {
-        return ticketHolderLastname;
-    }
-
-    public void setTicketHolderLastname(String ticketHolderLastname) {
-        this.ticketHolderLastname = ticketHolderLastname;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public static int getTicketNumber() {
+    public int getTicketNumber() {
         return ticketNumber;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Ticket ticket = (Ticket) o;
-        return Double.compare(ticket.price, price) == 0 && ticketNumber == ticket.ticketNumber && Objects.equals(ticketHolderName, ticket.ticketHolderName) && Objects.equals(ticketHolderLastname, ticket.ticketHolderLastname);
+    public void setTicketNumber(int ticketNumber) {
+        this.ticketNumber = ticketNumber;
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(ticketHolderName, ticketHolderLastname, price, ticketNumber);
+    public static double getPrice() {
+        return price;
+    }
+
+    public static void setPrice(double price) {
+        Ticket.price = price;
+    }
+
+    public int getPayCounter() {
+        return payCounter;
+    }
+
+    public void setPayCounter(int payCounter) {
+        this.payCounter = payCounter;
     }
 
     @Override
     public String toString() {
         return "Ticket{" +
-                "ticketHolderName='" + ticketHolderName + '\'' +
-                ", ticketHolderLastname='" + ticketHolderLastname + '\'' +
-                ", price=" + price +
-                ", ticketNumber=" + ticketNumber +
+                "ticketNumber=" + ticketNumber +
                 '}';
     }
 
     @Override
-    public void makePayment(long cardNumber, long price) throws UnsuccessfulPaymentRuntime {
+    public void makePayment(long cardNumber, long price) throws UnsuccessfulPaymentException {
         if (price == this.price){
             LOGGER.info("you make the payment successfully");
-            l++;
+            payCounter++;
         }else {
-            throw new UnsuccessfulPaymentRuntime("Please pay full amount");
+            throw new UnsuccessfulPaymentException("Please pay full amount");
         }
     }
 
     @Override
     public void receivePayment() {
-        if (l > 0){
-            LOGGER.info("You already paid "+price+"$");
-        }else {
-            LOGGER.info("Payment did not placed yet!");
-        }
+        // using
+        PaymentLogger paymentLogger = (counter, amount) -> {
+            if (counter > 0) {
+                LOGGER.info("You already paid " + amount + "$");
+            } else {
+                LOGGER.info("Payment did not placed yet!");
+            }
+        };
+
+        paymentLogger.logPaymentStatus(payCounter, price);
     }
 
 }

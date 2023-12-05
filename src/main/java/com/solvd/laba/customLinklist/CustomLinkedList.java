@@ -1,4 +1,4 @@
-package customLinklist;
+package com.solvd.laba.customLinklist;
 
 
 import com.solvd.laba.oopPractice.Exception.InvalidIndex;

@@ -1,4 +1,4 @@
-package com.solvd.laba.oopPractice;
+package com.solvd.laba.oopPractice.enums;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -7,31 +7,31 @@ public enum DayOfWeek {
 
     MONDAY("Monday", 1) {
         @Override
-        void plans() {
+        public void plans() {
             System.out.println("Monday: Start of the workweek. Plan your goals for the week.");
         }
     },
     TUESDAY("Tuesday", 2) {
         @Override
-        void plans() {
+        public void plans() {
             System.out.println("Tuesday: Team meetings and collaborative work day.");
         }
     },
     WEDNESDAY("Wednesday", 3) {
         @Override
-        void plans() {
+        public void plans() {
             System.out.println("Wednesday: Midweek checkpoint. Review and adjust your plans.");
         }
     },
     THURSDAY("Thursday", 4) {
         @Override
-        void plans() {
+        public void plans() {
             System.out.println("Thursday: Project updates and client meetings.");
         }
     },
     FRIDAY("Friday", 5) {
         @Override
-        void plans() {
+        public void plans() {
             System.out.println("Friday: Focus on completing tasks and planning for the weekend.");
         }
     };
@@ -45,15 +45,17 @@ public enum DayOfWeek {
         this.dayNumber = dayNumber;
     }
 
-    String getDay() {
+    public String getDay() {
         return day;
     }
 
-    int getDayNumber() {
+    public int getDayNumber() {
         return dayNumber;
     }
 
-     abstract void plans();
+    public void plans() {
+
+    }
 
     // Static block
     static {

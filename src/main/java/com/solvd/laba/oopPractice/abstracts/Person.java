@@ -1,19 +1,18 @@
 package com.solvd.laba.oopPractice.abstracts;
 
 import com.solvd.laba.oopPractice.Exception.InvalidPersonException;
-import com.solvd.laba.oopPractice.interfaces.Printable;
+import com.solvd.laba.oopPractice.interfaces.Documentable;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.Objects;
 
-public abstract class Person implements Printable {
+public abstract class Person implements Documentable {
     private static final Logger LOGGER = LogManager.getLogger(Person.class);
     protected String firstName;
     protected String lastName;
     protected long phoneNumber;
-
     public Person(String firstName, String lastName, long phoneNumber) throws InvalidPersonException {
         if (firstName == null || StringUtils.isEmpty(firstName) || lastName == null || StringUtils.isEmpty(lastName)) {
             throw new InvalidPersonException("Invalid " + this.getClass().getSimpleName() + ": First name and last name.");
