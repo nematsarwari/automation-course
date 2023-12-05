@@ -3,6 +3,7 @@ package com.solvd.laba.oopPractice;
 import com.solvd.laba.oopPractice.Exception.UnsuccessfulPaymentException;
 import com.solvd.laba.oopPractice.interfaces.Payable;
 import com.solvd.laba.oopPractice.interfaces.PaymentLogger;
+import com.solvd.laba.oopPractice.interfaces.Validator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -11,7 +12,7 @@ public class Ticket implements Payable {
     private static final Logger LOGGER = LogManager.getLogger(Ticket.class);
 
     private int ticketNumber;
-    static double price = 20.0;
+    private double price = 20.0;
     private int payCounter;
     public Ticket(int ticketNumber){
         this.ticketNumber = ticketNumber;
@@ -26,12 +27,12 @@ public class Ticket implements Payable {
         this.ticketNumber = ticketNumber;
     }
 
-    public static double getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public static void setPrice(double price) {
-        Ticket.price = price;
+    public void setPrice(double price) {
+        this.price = price;
     }
 
     public int getPayCounter() {
@@ -51,6 +52,15 @@ public class Ticket implements Payable {
 
     @Override
     public void makePayment(long cardNumber, long price) throws UnsuccessfulPaymentException {
+
+        Validator<Double> validator = (actual, expected) -> actual.equals(expected);
+
+        if (validator.validate(this.price, (double) price)) {
+            System.out.println("You made the payment successfully");
+            payCounter++;
+        } else {
+            throw new UnsuccessfulPaymentException("Please pay the full amount");
+        }
         if (price == this.price){
             LOGGER.info("you make the payment successfully");
             payCounter++;
