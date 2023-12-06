@@ -13,25 +13,15 @@ public class CustomLinkedList<T> implements List {
     private int size;
 
     public CustomLinkedList(Node<T> head, int size) {
-        LOGGER.info("CustomLinkedList class has been created.");
         this.head = head;
         this.size = size;
+        LOGGER.info("CustomLinkedList class has been created.");
     }
 
     public CustomLinkedList() {
-        LOGGER.warn("Empty CustomLinkedList class has been created.");
         this.head = null;
         this.size = 0;
-    }
-
-    @Override
-    public int size() {
-        return size;
-    }
-
-    @Override
-    public boolean isEmpty() {
-        return size == 0;
+        LOGGER.warn("Empty CustomLinkedList class has been created.");
     }
 
     @Override
@@ -47,11 +37,6 @@ public class CustomLinkedList<T> implements List {
             current = current.next;
         }
         return false;
-    }
-
-    @Override
-    public Iterator iterator() {
-        return null;
     }
 
     @Override
@@ -189,6 +174,22 @@ public class CustomLinkedList<T> implements List {
             previous.next = newNode;
         }
         size++;
+    }
+
+    @Override
+    public int size() {
+        return size;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
+
+    @Override
+    public Iterator iterator() {
+        return null;
     }
 
     @Override
