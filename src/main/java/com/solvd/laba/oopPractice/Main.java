@@ -1,7 +1,8 @@
 package com.solvd.laba.oopPractice;
 
-import com.solvd.laba.oopPractice.Exception.InvalidPersonException;
-import com.solvd.laba.oopPractice.Exception.UnsuccessfulPaymentException;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import com.solvd.laba.oopPractice.enums.HiringSeason;
 import com.solvd.laba.oopPractice.enums.Salary;
 import com.solvd.laba.oopPractice.people.Manager;
@@ -13,15 +14,51 @@ import com.solvd.laba.oopPractice.stationSystem.Train;
 import com.solvd.laba.oopPractice.stationSystem.TrainLine;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.time.LocalDate;
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
         Logger LOGGER = LogManager.getLogger(SubwaySystem.class);
+        Class<Passenger> passengerClass = Passenger.class;
+        // reflection
+        // Extract information about fields
+        System.out.println("Fields:");
+        for (Field field : passengerClass.getDeclaredFields()) {
+            System.out.println("Name: " + field.getName() +
+                    ", Type: " + field.getType() +
+                    ", Modifiers: " + field.getModifiers());
+        }
+
+        // Extract information about constructors
+        System.out.println("\nConstructors:");
+        for (Constructor<?> constructor : passengerClass.getDeclaredConstructors()) {
+            System.out.println("Name: " + constructor.getName() +
+                    ", Parameters: " + constructor.getParameterCount() +
+                    ", Modifiers: " + constructor.getModifiers());
+        }
+
+        // Extract information about methods
+        System.out.println("\nMethods:");
+        for (Method method : passengerClass.getDeclaredMethods()) {
+            System.out.println("Name: " + method.getName() +
+                    ", Return Type: " + method.getReturnType() +
+                    ", Parameters: " + method.getParameterCount() +
+                    ", Modifiers: " + method.getModifiers());
+        }
+
+        try {
+            // Create an object using reflection
+            Constructor<Passenger> constructor = passengerClass.getConstructor(String.class, String.class, long.class, LocalDate.class);
+            Passenger passenger = constructor.newInstance("John", "Doe", 1234567890, LocalDate.now());
 
 
+            // Print the object using reflection
+            System.out.println("\nPassenger Object:");
+            System.out.println(passenger);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
 
         try {
@@ -123,9 +160,18 @@ public class Main {
 
 
             SubwaySystem subwayCompany = new SubwaySystem("UnionSubwayStation", stations, trains, trainLines, managers, trainDrivers, securities, passengers, passengerTicketMap);
-            System.out.println(subwayCompany);
-            ticket1.makePayment(23423422345l, 20);
-            ticket1.receivePayment();
+            System.out.println(subwayCompany.getManagers());
+
+            // Using the getInfo method with Optional
+            Optional<String> resultOptional = subwayCompany.getInfo();
+
+            if (resultOptional.isPresent()) {
+                System.out.println("Result: " + resultOptional.get());
+            } else {
+                System.out.println("Result is null");
+            }
+
+
         }catch (Exception e){
             LOGGER.error(e.getMessage());
         }

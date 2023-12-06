@@ -11,6 +11,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class SubwaySystem {
     private static final Logger LOGGER = LogManager.getLogger(SubwaySystem.class);
@@ -51,7 +52,9 @@ public class SubwaySystem {
     }
 
     public List<Station> getStations() {
-        return stations;
+        return stations.stream()
+                .sorted()
+                .collect(Collectors.toList());
     }
 
     public void setStations(List<Station> stations) {
@@ -59,7 +62,9 @@ public class SubwaySystem {
     }
 
     public List<Train> getTrains() {
-        return trains;
+        return trains.stream()
+                .sorted()
+                .collect(Collectors.toList());
     }
 
     public void setTrains(List<Train> trains) {
@@ -67,7 +72,9 @@ public class SubwaySystem {
     }
 
     public List<TrainLine> getTrainLines() {
-        return trainLines;
+        return trainLines.stream()
+                .sorted()
+                .collect(Collectors.toList());
     }
 
     public void setTrainLines(List<TrainLine> trainLines) {
@@ -75,7 +82,9 @@ public class SubwaySystem {
     }
 
     public Set<Manager> getManagers() {
-        return managers;
+        return managers.stream()
+                .distinct()
+                .collect(Collectors.toSet());
     }
 
     public void setManagers(Set<Manager> managers) {
@@ -83,7 +92,9 @@ public class SubwaySystem {
     }
 
     public Set<TrainDriver> getTrainDrivers() {
-        return trainDrivers;
+        return trainDrivers.stream()
+                .sorted()
+                .collect(Collectors.toSet());
     }
 
     public void setTrainDrivers(Set<TrainDriver> trainDrivers) {
@@ -91,7 +102,8 @@ public class SubwaySystem {
     }
 
     public Set<Security> getSecurities() {
-        return securities;
+        return securities.stream()
+                .collect(Collectors.toCollection(LinkedHashSet::new));
     }
 
     public void setSecurities(Set<Security> securities) {
@@ -99,7 +111,11 @@ public class SubwaySystem {
     }
 
     public HashSet<Passenger> getPassengers() {
-        return passengers;
+        List<Passenger> sortedList = passengers.stream()
+                .sorted(Comparator.comparing(Passenger::getFirstName))
+                .collect(Collectors.toList());
+
+        return new HashSet<>(sortedList);
     }
 
     public void setPassengers(HashSet<Passenger> passengers) {
@@ -140,5 +156,11 @@ public class SubwaySystem {
                 ", passengers=" + passengers +
                 ", tickets=" + passengerTicketMap +
                 '}';
+    }
+    // Method that returns an Optional<String>
+    public Optional<String> getInfo() {
+        // Some logic that may return null
+        String result = null;
+        return Optional.ofNullable(result);
     }
 }

@@ -1,6 +1,7 @@
 package com.solvd.laba.oopPractice.stationSystem;
 
 import com.solvd.laba.oopPractice.Exception.InvalidTrainException;
+import com.solvd.laba.oopPractice.MaxCapacity;
 import com.solvd.laba.oopPractice.abstracts.Equipment;
 import com.solvd.laba.oopPractice.interfaces.Maintainable;
 import com.solvd.laba.oopPractice.interfaces.Transportable;
@@ -14,6 +15,7 @@ public class Train extends Equipment implements Transportable, Maintainable {
     private static final Logger LOGGER = LogManager.getLogger(Train.class);
     private int capacity;
     public static int trainCount;
+    public static MaxCapacity maxCapacity;
     public Train(String name,LocalDate establishedDate , int capacity)throws InvalidTrainException {
         super(name, establishedDate);
         if (name == null || StringUtils.isEmpty(name) || capacity == 0) {
@@ -40,6 +42,10 @@ public class Train extends Equipment implements Transportable, Maintainable {
         if (!super.equals(o)) return false;
         Train train = (Train) o;
         return capacity == train.capacity;
+    }
+
+    public static int getMaxCapacity() {
+        return maxCapacity.MAX_PASSENGERS;
     }
 
     @Override
