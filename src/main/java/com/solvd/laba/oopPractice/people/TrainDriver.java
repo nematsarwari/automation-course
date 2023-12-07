@@ -95,7 +95,7 @@ public class TrainDriver extends Person {
                 '}';
     }
 
-    String path = "C:\\Users\\nemat\\IdeaProjects\\automation-course\\src\\test\\java\\employeesDocuments\\"+getFirstName()+"Documents.txt";
+    String path = "src\\test\\java\\employeesDocuments\\"+getFirstName()+"Documents.txt";
     @Override
     public void writeDocument() {
         fileUtils = new FileUtils();

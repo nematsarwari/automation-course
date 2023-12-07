@@ -171,6 +171,8 @@ public class Main {
                 System.out.println("Result is null");
             }
 
+            System.out.println("_____________________________");
+            System.out.println(subwayCompany.checkPaidTicket(passenger1));
 
         }catch (Exception e){
             LOGGER.error(e.getMessage());

@@ -22,19 +22,20 @@ public class SubwaySystem {
     private Set<Manager> managers;
     private Set<TrainDriver> trainDrivers;
     private Set<Security> securities;
-    private HashSet<Passenger> passengers;
+    private Set<Passenger> passengers;
     private Map<Passenger, Ticket> passengerTicketMap;
+
 
     public SubwaySystem(String companyName, List<Station> stations, List<Train> trains, List<TrainLine> trainLines, Set<Manager> managers, Set<TrainDriver> trainDrivers, Set<Security> securities, Set<Passenger> passengers, Map<Passenger, Ticket> passengerTicketMap) {
         this.companyName = companyName;
-        this.stations = new ArrayList<>(stations);
-        this.trains = new ArrayList<>(trains);
-        this.trainLines = new ArrayList<>(trainLines);
-        this.managers = new HashSet<>(managers);
-        this.trainDrivers = new HashSet<>(trainDrivers);
-        this.securities = new HashSet<>(securities);
-        this.passengers = new HashSet<>(passengers);
-        this.passengerTicketMap = new HashMap<>(passengerTicketMap);
+        this.stations = stations;
+        this.trains = trains;
+        this.trainLines = trainLines;
+        this.managers = managers;
+        this.trainDrivers = trainDrivers;
+        this.securities = securities;
+        this.passengers = passengers;
+        this.passengerTicketMap = passengerTicketMap;
         LOGGER.info("This SubwaySystem created: " + companyName);
     }
 
@@ -137,6 +138,14 @@ public class SubwaySystem {
         SubwaySystem that = (SubwaySystem) o;
         return Objects.equals(companyName, that.companyName) && Objects.equals(stations, that.stations) && Objects.equals(trains, that.trains) && Objects.equals(trainLines, that.trainLines) && Objects.equals(managers, that.managers) && Objects.equals(trainDrivers, that.trainDrivers) && Objects.equals(securities, that.securities) && Objects.equals(passengers, that.passengers) && Objects.equals(passengerTicketMap, that.passengerTicketMap);
     }
+    public String checkPaidTicket(Passenger passenger){
+        Ticket ticket;
+        ticket = passengerTicketMap.get(passenger);
+        if (ticket.receivePayment() == "You already paid $"){
+            return "This "+ticket+" purchased by"+passenger;
+        }else{
+        return "This "+ticket+" didnt purchase yet";}
+    }
 
     @Override
     public int hashCode() {
@@ -157,6 +166,7 @@ public class SubwaySystem {
                 ", tickets=" + passengerTicketMap +
                 '}';
     }
+
     // Method that returns an Optional<String>
     public Optional<String> getInfo() {
         // Some logic that may return null

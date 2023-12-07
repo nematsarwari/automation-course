@@ -2,7 +2,6 @@ package com.solvd.laba.oopPractice;
 
 import com.solvd.laba.oopPractice.Exception.UnsuccessfulPaymentException;
 import com.solvd.laba.oopPractice.interfaces.Payable;
-import com.solvd.laba.oopPractice.interfaces.PaymentLogger;
 import com.solvd.laba.oopPractice.interfaces.Validator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -70,17 +69,15 @@ public class Ticket implements Payable {
     }
 
     @Override
-    public void receivePayment() {
-        // using
-        PaymentLogger paymentLogger = (counter, amount) -> {
-            if (counter > 0) {
-                LOGGER.info("You already paid " + amount + "$");
-            } else {
-                LOGGER.info("Payment did not placed yet!");
-            }
-        };
+    public String receivePayment() {
+        String paymentStatus;
+        if (payCounter > 0) {
+            paymentStatus = "You already paid " + price + "$";
+        } else {
+            paymentStatus = "Payment did not placed yet!";
+        }
 
-        paymentLogger.logPaymentStatus(payCounter, price);
+        return paymentStatus;
     }
 
 }

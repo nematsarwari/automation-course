@@ -90,9 +90,8 @@ public class CustomLinkedList<T> implements List {
     @Override
     public boolean addAll(Collection c) {
         int previousSize = size;
-        for (Object obj : c) {
-            add(obj);
-        }
+        c.stream()
+                .forEach(this::add);
         return size != previousSize;
     }
 

@@ -4,6 +4,7 @@ import com.solvd.laba.oopPractice.Exception.InvalidPersonException;
 import com.solvd.laba.oopPractice.FileUtils;
 import com.solvd.laba.oopPractice.Ticket;
 import com.solvd.laba.oopPractice.abstracts.Person;
+import com.solvd.laba.oopPractice.enums.RideExperience;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -16,7 +17,9 @@ public class Passenger extends Person {
     private static final Logger LOGGER = LogManager.getLogger(Passenger.class);
     private LocalDate ticketDate;
     private Ticket ticket;
-    FileUtils fileUtils;
+    private FileUtils fileUtils;
+    private RideExperience rideExperience;
+
 
     public Passenger(String firstName, String lastName, long phoneNumber, LocalDate ticketDate) throws InvalidPersonException {
         super(firstName, lastName, phoneNumber);
@@ -64,7 +67,7 @@ public class Passenger extends Person {
                 ", phoneNumber=" + phoneNumber +
                 '}';
     }
-    String path = "C:\\Users\\nemat\\IdeaProjects\\automation-course\\src\\test\\java\\passengerDocuments\\"+getFirstName()+"Documents.txt";
+    String path = "src\\test\\java\\passengerDocuments\\"+getFirstName()+"Documents.txt";
     @Override
     public void writeDocument() {
         fileUtils = new FileUtils();
@@ -86,5 +89,8 @@ public class Passenger extends Person {
 
         // Execute the Runnable
         printLinesRunnable.run();
+    }
+    public RideExperience feedBack(int op){
+        return RideExperience.getByOption(op);
     }
 }

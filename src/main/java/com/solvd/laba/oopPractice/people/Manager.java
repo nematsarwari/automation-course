@@ -94,7 +94,7 @@ public class Manager extends Person {
                 ", phoneNumber=" + phoneNumber +
                 '}';
     }
-    String path = "C:\\Users\\nemat\\IdeaProjects\\automation-course\\src\\test\\java\\employeesDocuments\\"+getFirstName()+"Documents.txt";
+    String path = "src\\test\\java\\employeesDocuments\\"+getFirstName()+"Documents.txt";
     @Override
     public void writeDocument() {
         fileUtils = new FileUtils();
@@ -117,7 +117,7 @@ public class Manager extends Person {
     public void getWeekPlans() {
         Predicate<DayOfWeek> filterWeekdays = day -> day.getDayNumber() >= 1 && day.getDayNumber() <= 5;
 
-        // Predicate lambda and stream
+        // lambda and stream
         Arrays.stream(DayOfWeek.values())
                 .filter(filterWeekdays)
                 .forEach(day -> {
