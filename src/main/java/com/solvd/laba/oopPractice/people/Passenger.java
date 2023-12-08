@@ -4,13 +4,15 @@ import com.solvd.laba.oopPractice.Exception.InvalidPersonException;
 import com.solvd.laba.oopPractice.FileUtils;
 import com.solvd.laba.oopPractice.Ticket;
 import com.solvd.laba.oopPractice.abstracts.Person;
-import com.solvd.laba.oopPractice.enums.RideExperience;
+import com.solvd.laba.oopPractice.enums.PassengerFeedback;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.time.LocalDate;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
+import java.util.Scanner;
 
 
 public class Passenger extends Person {
@@ -18,7 +20,6 @@ public class Passenger extends Person {
     private LocalDate ticketDate;
     private Ticket ticket;
     private FileUtils fileUtils;
-    private RideExperience rideExperience;
 
 
     public Passenger(String firstName, String lastName, long phoneNumber, LocalDate ticketDate) throws InvalidPersonException {
@@ -90,7 +91,30 @@ public class Passenger extends Person {
         // Execute the Runnable
         printLinesRunnable.run();
     }
-    public RideExperience feedBack(int op){
-        return RideExperience.getByOption(op);
+    public void feedBack(){
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt the passenger for feedback
+        System.out.println("Please provide your feedback:");
+
+        // Display feedback options
+        Arrays.stream(PassengerFeedback.values())
+                .forEach(feedback -> System.out.println(feedback.ordinal() + 1 + ". " + feedback.getFeedback()));
+
+        // Read the user's choice
+        System.out.print("Enter your feedback choice (1-" + PassengerFeedback.values().length + "): ");
+        int feedbackChoice = scanner.nextInt();
+
+        // Validate the user's choice
+        if (feedbackChoice >= 1 && feedbackChoice <= PassengerFeedback.values().length) {
+            // Get the selected feedback
+            PassengerFeedback selectedFeedback = PassengerFeedback.values()[feedbackChoice - 1];
+            System.out.println("Thank you for providing " + selectedFeedback.getFeedback() + " feedback!");
+        } else {
+            System.out.println("Invalid feedback choice. Please choose a valid option.");
+        }
+
+        // Close the scanner
+        scanner.close();
     }
 }

@@ -3,18 +3,13 @@ package com.solvd.laba.oopPractice.people;
 import com.solvd.laba.oopPractice.Exception.InvalidPersonException;
 import com.solvd.laba.oopPractice.FileUtils;
 import com.solvd.laba.oopPractice.abstracts.Person;
-import com.solvd.laba.oopPractice.enums.DayOfWeek;
-import com.solvd.laba.oopPractice.enums.EmployeeStatus;
-import com.solvd.laba.oopPractice.enums.HiringSeason;
-import com.solvd.laba.oopPractice.enums.Salary;
+import com.solvd.laba.oopPractice.enums.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.time.LocalDate;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
-import java.util.function.Predicate;
 
 
 public class Manager extends Person {
@@ -24,7 +19,7 @@ public class Manager extends Person {
     private Salary salary;
     private EmployeeStatus managerStatus;
     private FileUtils fileUtils;
-
+    private WeekPlans weekPlans;
     public static int countManager;
 
     public Manager(String firstName, String lastName, long phoneNumber, LocalDate hiredDate, Salary salary, HiringSeason hiringSeason) throws InvalidPersonException {
@@ -109,20 +104,14 @@ public class Manager extends Person {
     @Override
     public void printDocument() {
         List<String> lines = fileUtils.readFromFile(path);
-
         // Consumer lambda and stream
         lines.stream().forEach(System.out::println);
     }
+    public String getDayPlan(String day){
+        return weekPlans.getPlanForDay(day);
+    }
 
-    public void getWeekPlans() {
-        Predicate<DayOfWeek> filterWeekdays = day -> day.getDayNumber() >= 1 && day.getDayNumber() <= 5;
-
-        // lambda and stream
-        Arrays.stream(DayOfWeek.values())
-                .filter(filterWeekdays)
-                .forEach(day -> {
-                    System.out.println(day + " | Day: " + day.getDay());
-                    day.plans();
-                });
+    public String getWeekPlans() {
+        return weekPlans.getAllPlans();
     }
 }
